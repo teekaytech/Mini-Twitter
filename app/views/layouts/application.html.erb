@@ -38,7 +38,7 @@
         <div class="navbar-end">
           <div class="navbar-item">
               <p class="control">
-                <%= link_to 'New Tweeet', new_tweeet_path, class: "button is-info is-inverted" %>
+                <%= link_to 'New Tweeet', tweeets_path, class: "button is-info is-inverted" %>
               </p>
               <% if user_signed_in? %>
                 <p class="control">
@@ -49,7 +49,7 @@
                 </p>
               <% else %>
                 <p class="control"><%= link_to "Sign In", new_user_session_path, class: "button is-info" %></p>
-                <p class="control"><%= link_to "Sign In", new_user_registration_path, class: "button is-info" %></p>
+                <p class="control"><%= link_to "Sign up", new_user_registration_path, class: "button is-info" %></p>
               <% end %>
           </div>
         </div>
