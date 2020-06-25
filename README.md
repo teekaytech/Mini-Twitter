@@ -31,7 +31,7 @@ Please Note that you must have github installed on your PC, this can be done [he
 Since all the code is written using ruby on rails, `Ruby Runtime >= 1.9` and `rails 6` is required to interpret the code. If you don't have ruby on rails runtime already setup on your computer, follow the instruction for your specific operating system on the [official installation guide](https://guides.rubyonrails.org/getting_started.html#creating-a-new-rails-project-installing-rails).
 
 ## Live demo
-[Live Demo Link]()
+[Live Demo Link](https://morning-lake-55391.herokuapp.com/)
 
 ### Usage (Locally)
 
